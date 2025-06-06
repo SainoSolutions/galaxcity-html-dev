@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.about-section {
+  background-image: url('./486187185_18047472695343245_2429032065357544551_n.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 40%, rgba(0, 0, 0, 0.1));
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.content {
+  max-width: 500px;
+}
+
+.content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.our-story {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.our-story h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.our-story p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.team-section {
+  padding: 60px 20px;
+}
+
+.team-section h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.team-card {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 0 auto 30px;
+  max-width: 1000px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  border-top: 6px solid #2c4eff;
+}
+
+.member img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.member h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.member p {
+  font-size: 14px;
+  color: #666;
+}
+
+.contact-btn {
+  text-align: center;
+  background-color: #2c4eff;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #1a36cc;
+}
+
+.button-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-banner {
+  background-image: url(./482123607_18045200834343245_6032584008707992827_n.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.content {
+  color: #fff;
+  max-width: 700px;
+}
+
+.content h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff6b35;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e05521;
+}
