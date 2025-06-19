@@ -32,16 +32,19 @@ body, html {
 
 .content {
   max-width: 500px;
+  
 }
 
 .content h1 {
-  font-size: 48px;
+
   margin-bottom: 20px;
+ 
 }
 
 .content p {
   font-size: 16px;
   line-height: 1.6;
+  font-size: 500px;
 }
 
 .our-story {
@@ -55,20 +58,22 @@ body, html {
 }
 
 .our-story h2 {
-  font-size: 28px;
+  font-size: 50px;
   font-weight: 600;
   margin-bottom: 20px;
   color: #111;
 }
 
 .our-story p {
-  font-size: 16px;
+  font-size: px;
   line-height: 1.8;
   color: #555;
 }
 
 .team-section {
-  padding: 60px 20px;
+  padding: 60px 40px;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .team-section h2 {
@@ -79,35 +84,40 @@ body, html {
 
 .team-card {
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
+  gap: 20px;
   flex-wrap: wrap;
   background: #fff;
   border-radius: 10px;
   padding: 30px;
   margin: 0 auto 30px;
-  max-width: 1000px;
+  max-width: 100%;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   border-top: 6px solid #2c4eff;
+  
 }
 
 .member img {
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 15px;
+  margin-right: auto;
+  
 }
 
 .member h4 {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .member p {
   font-size: 14px;
   color: #666;
+  text-align: center;
 }
 
 .contact-btn {
